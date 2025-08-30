@@ -61,7 +61,13 @@ h1, h2 {
 .flavor, .dessert {
   text-align: left;
   width: 75%;
+  font-family:cursive;
 }
+.flavor:hover, .dessert:hover, .price:hover
+{
+  color:beige;
+}
+
 
 .price {
   text-align: right;
@@ -76,7 +82,6 @@ footer {
 
 .address {
   margin-bottom: 5px;
-
 }
 
 a {
